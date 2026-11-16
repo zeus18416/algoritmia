@@ -1,13 +1,13 @@
-Algoritmo PromedioNotas
+Algoritmo Propinas
     Definir Cuenta, propinapor, personas, cuantoPerson, total, propina Como Entero
 
     Escribir 'Cuanto fue el valor de la cuenta'
     Leer Cuenta
 
-    Escribir '¿Cuanta propina deseas dejar?'
+    Escribir '¿Cuanta propina deseas dejar, en porcentaje?'
     Leer propina
 
-    Escribir 'Cuantas Personas son?'
+    Escribir '¿Cuantas Personas son?'
     Leer personas
 
     propinapor <- (Cuenta * propina) / 100

@@ -1,4 +1,4 @@
-Algoritmo bisiesto
+Algoritmo Bisiesto
 	Definir anio Como Entero;
 	Escribir "Ingrese un año:";
 	Leer anio;

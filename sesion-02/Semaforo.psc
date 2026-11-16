@@ -1,4 +1,4 @@
-Algoritmo semaforo
+Algoritmo Semaforo
 	Definir unidades Como Entero;
 	Escribir "Ingrese el numero de unidades:";
 	Leer unidades;

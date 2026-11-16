@@ -1,14 +1,14 @@
 Algoritmo ValidarEdad
 	Definir edad Como Entero
 	Definir respuesta Como Caracter
-	Escribir "¿Cuantos años tienes?"
+	Escribir "Â¿Cuantos anios tienes?"
 	Leer edad
-	Escribir "¿Aceptas los terminos y condiciones? S/N"
+	Escribir "Â¿Aceptas los terminos y condiciones? S/N"
 	Leer respuesta
 	respuesta <- Mayusculas(respuesta)
 	Si (edad >= 0 & edad <= 120) & respuesta = "S" Entonces
-		Escribir "Registro exitosooo"
+		Escribir "Registro exitoso"
 	SiNo
-		Escribir "No puedes registrarte"
+		Escribir "No puede registrarse"
 	FinSi
 FinAlgoritmo

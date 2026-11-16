@@ -1,11 +1,11 @@
 Algoritmo Parqueadero
-    Definir minutos, horas, vehiculo, tarifa, total Como Entero
+    Definir min, h, vehiculo, tarifa, total Como Entero
     Escribir "Seleccione el tipo de vehiculo:"
     Escribir "1. Carro"
     Escribir "2. Moto"
     Leer vehiculo
     Escribir "Ingrese el tiempo en minutos:"
-    Leer minutos
+    Leer min
     Si vehiculo = 1 O vehiculo = 2 Entonces
         Si vehiculo = 1 Entonces
             tarifa <- 4000
@@ -13,20 +13,20 @@ Algoritmo Parqueadero
             tarifa <- 1000
         FinSi
 		
-        Si minutos <= 15 Entonces
-            horas <- 0
+        Si min <= 15 Entonces
+            h <- 0
         SiNo
-            horas <- Trunc(minutos / 60)
+            h <- Trunc(min / 60)
 			
-            Si minutos MOD 60 <> 0 Entonces
-                horas <- horas + 1
+            Si min MOD 60 <> 0 Entonces
+                h <- h + 1
             FinSi
         FinSi
-        total <- horas * tarifa
-        Escribir "Horas cobradas: ", horas
+        total <- h * tarifa
+        Escribir "Horas cobradas: ", h
         Escribir "Total a pagar: $", total
 		
-        Si horas = 0 Entonces
+        Si h = 0 Entonces
             Escribir "Estacionamiento gratis"
         FinSi
     SiNo

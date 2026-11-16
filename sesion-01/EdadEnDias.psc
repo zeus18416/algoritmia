@@ -1,4 +1,4 @@
-Algoritmo edaddias
+Algoritmo EdadEnDias
     Definir edad, dias_edad Como Entero
 
     Escribir 'Ingresa tu edad: '

@@ -1,16 +1,16 @@
-Algoritmo promedionotas
-    Definir nota1, nota2, nota3, prom Como Real
+Algoritmo PromedioNotas
+    Definir n1, n2, n3, prom Como Real
 
     Escribir "Escribe tu primera nota"
-    Leer nota1
+    Leer n1
 
     Escribir "Escribe tu segunda nota"
-    Leer nota2
+    Leer n2
 
     Escribir "Escribe tu tercer nota"
-    Leer nota3
+    Leer n3
 
-    prom <- (nota1 + nota2 + nota3) / 3
+    prom <- (n1 + n2 + n3) / 3
 
     Escribir "El promedio de tus notas es: ", prom
 FinAlgoritmo
